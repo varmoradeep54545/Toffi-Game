@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    gap: 2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_border
+{
+    border: 0.2rem solid black;
+}
+img {
+    padding-top: 2vmin;
+    height: 13vmin;    
+}
+.header h1 {
+    padding-top: 2vmin;
+    font-size: 11vmin;
+}
+.bt1{
+    width: 6rem;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #3c3c33;  
+    color: white;
+    border-radius: 1rem;
+    border: none;   
+}
+
+body {
+    background-color: #a88f89;
+    text-align: center;
+}
+
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.game {
+    
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    cursor: pointer;
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: rgb(0, 0, 0);
+    background-color: #dadab5;
+}
+.box:hover{
+    background-color: #b6b698;
+}
+
+#reset-btn {
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn {
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#msg {
+    padding-top: 1vmin;
+   color: #dddda2;
+   font-size: 4vmin;
+}
+.hide {
+    display: none;
+}
+@media only screen and (max-width: 400px) {
+    .header{
+        margin: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bt1{
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+    .game {
+        height: 75vmin;
+        width: 75vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3vmin;
+    }
+    
+   
+}

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: #a88f89;
+}
+.header{
+    gap: 2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img {
+    padding-top: 2vmin;
+    height: 16vmin;    
+}
+.header h1 {
+    padding-top: 2vmin;
+    font-size: 11vmin;
+}
+.main_border
+{
+    border: 0.2rem solid black;
+}
+h1{
+    color: rgb(0, 0, 0);
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size:10vmin;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity: 60%;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.choice img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+.msg-container{
+
+    margin-top: 5rem;
+}
+#msg {
+    background-color: #191913;
+    color: white;
+    font-size: 2rem;
+    display: inline; 
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.bt1{
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+       margin-top: 1.5rem;
+        background-color: #3c3c33;
+        color: white;
+        font-size: 1.8rem;
+        display: inline; 
+        padding: 1rem;
+        border-radius: 1rem;
+}
+.reset-btn{
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+       margin-top: 1.5rem;
+        background-color: #3c3c33;
+        color: white;
+        font-size: 1.8rem;
+        display: inline; 
+        padding: 1rem;
+        border-radius: 1rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .header{
+        margin: 0;
+        margin-bottom: 0.5rem;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .header img {
+        
+        height: 20vmin;  
+        padding-top: 1rem;  
+    }
+    .header h1 {
+        padding-top: 1rem;
+        font-size: 1.5rem
+    }
+    .choices{
+        display: table;
+        padding-left: 7rem;
+    }
+    .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5.5rem;
+        font-size: 2.4rem;
+        margin-top: 3rem;
+    }
+    .msg-container{
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+  }
